@@ -1,6 +1,7 @@
-run = "go main.go"
+run = "go run main.go deck.go"
+modules = ["go-1.21"]
 [nix]
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "go main.go"]
+run = ["sh", "-c", "go run main.go"]

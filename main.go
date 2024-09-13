@@ -1,5 +1,10 @@
 package main
 
+import "fmt"
+
 func main() {
-  fmt.Println("Hello World")
+	her := avengers{"Batman", "Superman", "Spiderman"}
+	her = append(her, "Ironman")
+	her.assemble()
+	fmt.Println(her)
 }
