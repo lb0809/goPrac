@@ -1,0 +1,6 @@
+run = "go main.go"
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "go main.go"]
